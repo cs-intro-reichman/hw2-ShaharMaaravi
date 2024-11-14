@@ -5,7 +5,7 @@ public class Cheers {
                 int n = Integer.parseInt(args[1]); 
                 String upper = name.toUpperCase();
                 int len = upper.length(); 
-                String letters = "AEFHILMNOR";
+                String letters = "AEFHILMNORSX";
 
                 for(int i = 0; i < len; i++){
                         System.out.print("Give me a");
