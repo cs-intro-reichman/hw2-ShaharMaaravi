@@ -11,7 +11,7 @@ public class Collatz {
 			current = i;
 			counter = 1;
 			if(current == 1 & mode == 'v'){
-				System.out.print(current + ", ");
+				System.out.print(current + " ");
 				if(current%2 == 0){ 
 					current = current/2; 
 					counter++;
@@ -23,7 +23,7 @@ public class Collatz {
 			}
 			while(current > 1){
 				if(mode == 'v'){
-					System.out.print(current + ", ");
+					System.out.print(current + " ");
 				}
 				if(current%2 == 0){ 
 					current = current/2; 
