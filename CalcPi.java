@@ -5,7 +5,7 @@ public class CalcPi {
 		double sumPi = 0; 
 		double m = 1;
 		int k = 1;
-		for(int i = 0; i <= n; i++){
+		for(int i = 0; i < n; i++){
 			if(k == 1){
 				sumPi = sumPi + (1/m); 
 			}
